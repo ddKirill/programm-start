@@ -2,42 +2,44 @@ package com.company.task1;
 
 public class BinarySearchJava {
 
- public boolean search(int[] array, int find){
+    public boolean search(int[] array, int find) {
 
-     boolean result = false;
+        boolean result = false;
 
-     int a = 0;
-     int b = array.length -1;
+        int from = 0;
+        int end = array.length - 1;
 
-     while(!result){
+        while (!result) {
 
-         if(a > b){
-             break;
-         }
-         int midElement = b - (b - a) / 2;
-         //индекс среднего элемента
-         int midValue = array[midElement];
-         //средний элемент
-         if(midValue > find){
-             b = midElement - 1;
+            if (from > end) {
+                break;
+            }
+            //индекс среднего элемента
+            int midElement = end - (end - from) / 2;
+            //средний элемент
+            int midValue = array[midElement];
+
+            if (midValue > find) {
+                end = midElement - 1;
 
 
-         }else if(midValue < find){
-             a = midElement + 1;
-         }else {
-             result = true;
-         }
-     }
-     return result;
- }
- public boolean dumbSearch(int[] array, int find){
+            } else if (midValue < find) {
+                from = midElement + 1;
+            } else {
+                result = true;
+            }
+        }
+        return result;
+    }
 
-     for(int a : array){
-         if(a == find){
-             return true;
-         }
-     }
-     return false;
- }
+    public boolean dumbSearch(int[] array, int find) {
+
+        for (int a : array) {
+            if (a == find) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
 

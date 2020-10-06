@@ -1,16 +1,32 @@
 package com.company.task1;
 
-import com.company.task1.BinarySearchJava;
+
+import com.company.utils.IOUtils;
 
 public class Main {
 
     public static void main(String[] args) {
 
 
-
         BinarySearchJava instance = new BinarySearchJava();
-        int[] name = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-       boolean result =  instance.search(name, 2);
+        String arrayIn = IOUtils.readLineFromConsole(
+                "Enter a sorted array to search and press \"Enter\" key.\nNote numbers must be divided by ','"
+        );
+        String findIn = IOUtils.readLineFromConsole(
+                "Enter the desired number and press \"Enter\" key"
+        );
+
+        int[] arrayTransformed = IOUtils.readStringAsIntArray(arrayIn, ",");
+
+        int findTransformed;
+        try {
+            findTransformed = Integer.parseInt(findIn);
+        } catch (NumberFormatException nfe) {
+            System.err.println("Illegal desired value: " + findIn);
+            return;
+        }
+
+        boolean result = instance.search(arrayTransformed, findTransformed);
         System.out.println(result);
     }
 }
