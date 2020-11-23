@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        BinarySearchJava instance = new BinarySearchJava();
+        BinarySearch instance = new BinarySearch();
         String arrayIn = IOUtils.readLineFromConsole(
                 "Enter a sorted array to search and press \"Enter\" key.\nNote numbers must be divided by ','"
         );

@@ -1,5 +1,7 @@
 package com.company.task1;
 
+
+
 public class BinarySearch {
 
 
@@ -18,18 +20,33 @@ public class BinarySearch {
             }
             //нашел индекс среднего элемента
             int midIndex = (low + high) / 2;
+
+
             //число среднего элемента
             int value = array[midIndex];
+
             //рассматриваем левую часть массива
             if (midIndex > find) {
                 high = midIndex - 1;
+
                 //рассматриваем правую часть массива
             } else if (midIndex < find) {
+
                 low = midIndex + 1;
             } else {
                 result = true;
             }
-            return result;
+
+
+
 
         }
+
+        return result;
+
+
+
     }
+
+
+}
