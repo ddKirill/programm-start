@@ -1,7 +1,7 @@
-package com.company.task1;
+package com.company.ddkirill.algs.task1;
 
 
-import com.company.utils.IOUtils;
+import com.company.ddkirill.algs.utils.IOUtils;
 
 public class Main {
 

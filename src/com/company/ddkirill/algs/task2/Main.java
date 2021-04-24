@@ -1,4 +1,4 @@
-package com.company.task2;
+package com.company.ddkirill.algs.task2;
 
 public class Main {
 
