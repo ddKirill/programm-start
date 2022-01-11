@@ -1,4 +1,4 @@
-package com.company.ddkirill.algs.utils;
+package com.company.ddkirill.other_algs_and_data_structure.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

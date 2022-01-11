@@ -1,19 +1,24 @@
-# Algorithms and data structure.
+# **Algorithms and data structure**.
 __________________________________________________
 ## ~~Description~~
+__________________________________________________
+## ___Разделы:___
 
+1. В этом каталоге хранятся реализации из книги ["Грокаем алгоритмы"](https://github.com/ddKirill/programm-start/tree/AddReadme/src/com/company/ddkirill/grockalgs)
+2. Каталог для задач на знание структур данных и прочие алгоритмические [решения](https://github.com/ddKirill/programm-start/tree/AddReadme/src/com/company/ddkirill/other_algs_and_data_structure).
 
 __________________________________________________
 
-## Package "grockalgs"
+## **Полезные ссылки**
 
-В этом каталоге хранятся алгоритмы из книги "Грокаем алгоритмы" (Пока ещё не все)
+- [Markdown](https://github.com/GnuriaN/format-README)
+- [Java](https://docs.oracle.com/javase/8/docs/)
 
-__________________________________________________
-
-## Package "other_algs_and_data_structure"
-
-Каталог для задач на знание структур данных и прочие алгоритмические решения.
-
-
+### Пример подсветки кода:
+```java
+  public static void main(String[] args){
+        System.out.println("Подсветка кода");
+        }
+    
+```
 

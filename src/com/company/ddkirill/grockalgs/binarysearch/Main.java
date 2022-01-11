@@ -1,7 +1,7 @@
-package com.company.ddkirill.algs.binarysearch;
+package com.company.ddkirill.grockalgs.binarysearch;
 
 
-import com.company.ddkirill.algs.utils.IOUtils;
+import com.company.ddkirill.other_algs_and_data_structure.utils.IOUtils;
 
 public class Main {
 

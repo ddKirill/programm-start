@@ -1,4 +1,4 @@
-package com.company.ddkirill.algs.quicksort;
+package com.company.ddkirill.grockalgs.quicksort;
 
 import java.util.Arrays;
 
@@ -50,6 +50,8 @@ public class QuickSort {
 
         if (max > i)
             quickSort(array, i, max);
+
+        return;
     }
 
 
