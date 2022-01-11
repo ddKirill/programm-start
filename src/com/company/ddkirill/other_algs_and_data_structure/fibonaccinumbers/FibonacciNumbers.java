@@ -1,4 +1,4 @@
-package com.company.ddkirill.algs.fibonaccinumbers;
+package com.company.ddkirill.other_algs_and_data_structure.fibonaccinumbers;
 
 public class FibonacciNumbers {
 

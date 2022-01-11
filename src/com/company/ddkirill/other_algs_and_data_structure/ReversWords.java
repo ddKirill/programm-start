@@ -1,4 +1,4 @@
-package com.company.ddkirill.reverswords;
+package com.company.ddkirill.other_algs_and_data_structure;
 
 
 public class ReversWords {

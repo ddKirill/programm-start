@@ -1,4 +1,4 @@
-package com.company.ddkirill.algs.binarysearch;
+package com.company.ddkirill.grockalgs.binarysearch;
 
 
 
