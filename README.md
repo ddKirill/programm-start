@@ -13,6 +13,7 @@ __________________________________________________
 
 - [Markdown](https://github.com/GnuriaN/format-README)
 - [Java](https://docs.oracle.com/javase/8/docs/)
+- [Java Interview](https://itvdn.com/ru/blog/article/250-questions-java)
 
 ### Пример подсветки кода:
 ```java
