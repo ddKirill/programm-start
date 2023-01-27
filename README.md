@@ -1,12 +1,10 @@
 # **Algorithms and data structure**.
 __________________________________________________
-## ~~Description~~
-__________________________________________________
 ## ___Разделы:___
 
 1. В этом каталоге хранятся реализации из книги ["Грокаем алгоритмы"](https://github.com/ddKirill/programm-start/tree/AddReadme/src/com/company/ddkirill/grockalgs)
 2. Каталог для задач на знание структур данных и прочие алгоритмические [решения](https://github.com/ddKirill/programm-start/tree/AddReadme/src/com/company/ddkirill/other_algs_and_data_structure).
-
+3. Задачи с сайта [CodeWars](https://github.com/ddKirill/programm-start/tree/master/src/com/company/ddkirill/code_wars) 
 __________________________________________________
 
 ## **Полезные ссылки**
