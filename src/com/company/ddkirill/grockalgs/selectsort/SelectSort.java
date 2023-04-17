@@ -18,7 +18,7 @@ public class SelectSort {
         }
     }
 
-         private static int min(int[] array, int start){
+    private static int min(int[] array, int start){
         int minIndex = start;
         int minValue = array[start];
 

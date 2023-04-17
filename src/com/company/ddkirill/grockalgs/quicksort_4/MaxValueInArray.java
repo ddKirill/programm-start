@@ -1,4 +1,4 @@
-package com.company.ddkirill.other_algs_and_data_structure.maxvalue;
+package com.company.ddkirill.grockalgs.quicksort_4;
 
 public class MaxValueInArray {
 

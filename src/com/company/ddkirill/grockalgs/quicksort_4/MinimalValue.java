@@ -1,4 +1,6 @@
-package com.company.ddkirill.other_algs_and_data_structure.minvalue;
+package com.company.ddkirill.grockalgs.quicksort_4;
+
+import java.util.LinkedList;
 
 public class MinimalValue {
 
@@ -17,4 +19,5 @@ public class MinimalValue {
         }
         System.out.println(minValue);
     }
+
 }

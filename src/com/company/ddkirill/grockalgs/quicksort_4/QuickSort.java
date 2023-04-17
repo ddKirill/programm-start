@@ -1,4 +1,4 @@
-package com.company.ddkirill.grockalgs.quicksort;
+package com.company.ddkirill.grockalgs.quicksort_4;
 
 import java.util.Arrays;
 
